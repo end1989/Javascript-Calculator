@@ -1,0 +1,4 @@
+- [ ] Either jQuery or Vanilla JS is used consistently
+- [ ] "Clear" clears screen
+- [ ] Calculator can +, -, * and /
+- [ ] Divide by zero renders "Error" on screen

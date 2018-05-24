@@ -1,0 +1,92 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:700|Orbitron);
+
+body {
+  background: #71b66f;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 20px;
+  width: 100%;
+}
+
+#calculator {
+  background: #2b3d50;
+  border-radius: 20px;
+  padding: 15px;
+  width: 335px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#screen-container {
+  background: #5e626d;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+#screen {
+  background: #ef5d5d;
+  border: none;
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.4em;
+  font-weight: 600;
+  height: 23px;
+  overflow: hidden;
+  padding: 12px 15px;
+  width: 265px;
+  z-index: 1;
+}
+
+#zero {
+  width: 225px;
+}
+
+#clear {
+  background: #cf7c43;
+  width: 147px;
+}
+
+#clear:active {
+  background-color: #e67e22;
+}
+
+#equals {
+  height: 89px;
+}
+
+#buttons-container {
+  padding: 30px 0 0 15px;
+}
+
+.l-row {
+  position: absolute;
+  top: 354px;
+}
+
+.buttons {
+  overflow: hidden;
+}
+
+.buttons span {
+  background: #3383d2;
+  border-radius: 3px;
+  border: none;
+  box-shadow: inset 0px 1px 0px #5e626d, 0px 5px 0px 0px #45637f;
+  cursor: pointer;
+  float: left;
+  font-family: "Oswald", sans-serif;
+  width: 70px;
+  height: 40px;
+  margin: 0 7px 11px 0;
+  line-height: 40px;
+  text-align: center;
+}
+
+.buttons span:active {
+  background-color: #4aa3df;
+  top: 3px;
+  box-shadow: inset 0px 1px 0px #5e626d, 0px 2px 0px 0px #45637f;
+}
+
+.operator {
+  font-size: 1.3em;
+}
